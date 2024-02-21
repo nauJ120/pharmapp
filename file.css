@@ -1,0 +1,145 @@
+.tituloBru {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.tituloRetto {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: rgb(230,174,40);
+}
+
+.text {
+    font-weight: bold;
+    text-align: justify;
+    color: white;
+    font-size: 10pt;
+}
+
+
+.container {
+    text-align: justify;
+    font-size: 10pt;
+}
+
+.welcomeImage {
+    margin: 10px;
+    width: 200px;
+    border: solid;
+    float: left;
+    box-shadow: 10px 10px  10px rgb(230,174,40);
+}
+
+.ImageFormat {
+    margin: 5px;
+    width: 200px;
+    float: left;
+}
+
+.divImageFormat {
+    width: 250px;
+    float: left;
+}
+
+
+tr:nth-child(odd) {
+    background-color: rgb(247, 60, 126);;
+}
+
+.tituloBruDecorated {
+    color: white;
+    font: bold;
+    text-decoration: underline;
+    background-color: #00008B;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(230,174,40);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: white;
+    color: rgb(230,174,40);
+}
+
+
+
+.protest-strike-regular {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.squareBackground {
+    background: linear-gradient(#9999FF, blue);
+    padding: 10px;
+    border: 3px solid #00008B;
+}
+
+.squareBackground:hover {
+    background: #ddd;
+    color: #00008B;
+    border:3px solid red;
+}
+
+.squareBackground2 {
+    background: linear-gradient(rgb(233, 187, 203), red);
+    padding: 10px;
+    border: 3px solid #00008B;
+}
+
+.squareBackground2:hover {
+    background: #ddd;
+    color: #00008B;
+    border:3px solid red;
+}
+
+.squareBackground3 {
+    background: linear-gradient(red, rgb(168, 118, 136));
+    padding: 10px;
+    border: 3px solid #00008B;
+}
+
+.squareBackground3:hover {
+    background: #ddd;
+    color: #00008B;
+    border:3px solid red;
+}
+
+.squareBackground4 {
+    background: linear-gradient(blue, #9999FF);
+    padding: 10px;
+    border: 3px solid #00008B;
+}
+
+.squareBackground4:hover {
+    background: #ddd;
+    color: #00008B;
+    border:3px solid red;
+}
+
+
+li::marker {
+    color: rgb(247, 60, 126);
+}
+
+body { background-color: #030336; }
